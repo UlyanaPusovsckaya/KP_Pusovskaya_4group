@@ -1,0 +1,68 @@
+.aboutHydra
+    +flex
+    flex-direction: row-reverse
+    padding-top: 100px
+    gap: 108px
+    color: $white
+    +desktop
+        padding-top: 80px
+        gap: 60px
+    +tablet
+        padding-top: 40px
+        gap: 30px
+    +mobile
+        flex-direction: column-reverse
+        align-items: center
+        gap: 50px
+        padding-top: 36px
+
+.about_text
+    height: max-content
+    line-height: 1.5
+    +tablet
+        font-size: 12px
+    +mobile
+        font-size: 12px
+.about_title
+    font-size: 36px
+    font-weight: bold
+    +tablet
+        font-size: 30px
+    +mobile
+        display: none
+.about_subtitle
+    font-size: 36px
+    font-weight: lighter
+    padding-bottom: 42px
+    +tablet
+        font-size: 20px
+        padding-bottom: 10px
+    +mobile
+        display: none
+.aboutHydra_text-button
+    max-width: 630px
+    +flex
+    flex-direction: column
+    +desktop
+        max-width: 520px
+    +tablet
+        max-width: 400px
+    +mobile
+        align-items: center
+.aboutHydra_photo
+    background: url(/images/about.svg)
+    width: 524px
+    height: 557px
+    border-radius: 240px 100px
+    +tablet
+        width: 300px
+        height: 350px
+        border-radius: 120px 50px
+        background-size: cover
+    +mobile
+        width: 300px
+        height: 340px
+        border-radius: 100px 40px
+        background-size: cover
+    +desktop
+        border-radius: 120px 50px

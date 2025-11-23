@@ -1,0 +1,314 @@
+.main
+    &__content
+        &_introduction
+            padding-top: 113px
+            +desktop
+                padding-top: 50px
+            +tablet
+                padding-top: 50px
+            +mobile
+                padding-top: 50px
+        &_firstImpr
+            +flex
+            gap: 308px
+            padding-bottom: 80px
+            +desktop
+                gap: 120px
+            +tablet
+                align-items: center
+                gap: 10px
+                justify-content: center
+                padding-bottom: 50px
+            +mobile
+                flex-direction: column-reverse
+                gap: 39px
+                align-items: center
+                padding-bottom: 50px
+            &_text-button
+                +flex
+                flex-direction: column
+                +mobile
+                    align-items: center
+            &_text
+                +flex
+                flex-direction: column
+                gap: 36px
+                +tablet
+                    justify-content: left
+            &_photo
+                background-size: cover
+                background-image: url(/images/photo.svg)
+                background-repeat: no-repeat
+                width: 490px
+                height: 426px
+                border-radius: 100px 100px 100px 240px
+                +tablet
+                    width: 400px
+                    height: 320px
+                +mobile
+                    width: 300px
+                    height: 280px
+                    border-radius: 40px 40px 40px 150px
+                +desktop
+                    border-radius: 40px 40px 40px 150px
+        &_contact_group
+            +flex
+            align-items: center
+            gap: 40px
+            border-radius: 90px
+            background: radial-gradient(circle,#3A3456,#211E2E)
+            padding: 26px 39px 25px 80px
+            overflow-x: auto
+            scroll-snap-type: x mandatory
+            -webkit-overflow-scrolling: touch
+            +desktop
+                gap: 30px
+                padding: 18px 10px 18px 25px
+                overflow-x: visible
+                scroll-snap-type: none
+            +tablet
+                gap: 10px
+                padding: 18px 10px 18px 25px
+            +mobile
+                padding: 18px 10px 18px 25px
+            &_map
+                +flex
+                align-items: center
+                gap: 10px
+                scroll-snap-align: start
+                &_image
+                    background-image: url(/images/map_image.svg)
+                    width: 70px
+                    height: 70px
+                    background-size: cover
+                    background-repeat: no-repeat
+                    +tablet
+                        width: 60px
+                        height: 50px
+                    +mobile
+                        width: 70px
+                        height: 70px
+                &_text
+                    font-size: 14px
+                    color: white
+                    +tablet
+                        font-size: 12px
+                    &--bold
+                        font-weight: bold
+                        font-size: 24px
+                        +tablet
+                            font-size: 18px
+                    +mobile
+                        width: 195px
+
+            &_call
+                +flex
+                align-items: center
+                gap: 10px
+                scroll-snap-align: start
+                justify-content: center
+                +mobile
+                    gap:30px
+                &_image
+                    background-image: url(/images/phone-call.svg)
+                    width: 59px
+                    height: 59px
+                    background-size: cover
+                    background-repeat: no-repeat
+                    +tablet
+                        width: 50px
+                        height: 40px
+                    +mobile
+                        width: 59px
+                        height: 59px
+                &_text
+                    font-size: 14px
+                    color: white
+                    +tablet
+                        font-size: 12px
+                    &--bold
+                        font-weight: bold
+                        font-size: 24px
+                        +tablet
+                            font-size: 18px
+                    +mobile
+                        width: 210px
+
+            &_mail
+                +flex
+                align-items: center
+                gap: 10px
+                scroll-snap-align: start
+                +mobile
+                    gap:30px
+                &_image
+                    background-image: url(/images/mail.svg)
+                    width: 59px
+                    height: 59px
+                    background-size: cover
+                    background-repeat: no-repeat
+                    +tablet
+                        width: 50px
+                        height: 40px
+
+                &_text
+                    font-size: 14px
+                    color: white
+                    +tablet
+                        font-size: 12px
+                    &--bold
+                        font-weight: bold
+                        font-size: 24px
+                        +tablet
+                            font-size: 18px
+                    +mobile
+                        width: 195px
+        &_cards
+            padding-top: 60px
+            overflow-x: auto
+            scroll-snap-type: x mandatory
+            -webkit-overflow-scrolling: touch
+            +flex
+            gap: 11px
+            padding-bottom: 94px
+            +desktop
+                flex-wrap: wrap
+                gap: 50px
+                justify-content: center
+                overflow-x: visible
+                scroll-snap-type: none
+            +tablet
+                padding-top: 20px
+                padding-bottom: 40px
+                flex-wrap: wrap
+                justify-content: center
+        &_companies
+            +flex
+            justify-content: space-between
+            align-items: center
+            padding: 45px 0 69px 0
+            overflow-x: auto
+            scroll-snap-type: x mandatory
+            -webkit-overflow-scrolling: touch
+            +desktop
+                justify-content: space-between
+                overflow-x: visible
+                scroll-snap-type: none
+            +tablet
+                padding: 20px 0 30px 0
+                gap: 20px
+        &_banner
+            padding-top: 108px
+            padding-bottom: 96px
+            background-image: url(/images/banner.svg)
+            border-radius: 160px
+            position: relative
+            +mobile
+                background-size: cover
+                border-radius: 40px
+                padding: 51px 30px 49px 30px
+            &_title
+                font-size: 36px
+                font-weight: bold
+                color: #ffffff
+                text-align: center
+                +tablet
+                    font-size: 24px
+                +mobile
+                    font-size: 16px
+            &_subtitle
+                font-size: 36px
+                font-weight: lighter
+                color: #ffffff
+                text-align: center
+                +tablet
+                    font-size: 24px
+                +mobile
+                    font-size: 24px
+            &_arrow
+                border: 18px solid #0e0e0ebe
+                border-radius: 100%
+                background-color: $violet
+                width: 60px
+                height: 60px
+                position: absolute
+                z-index: 5
+                +flex
+                justify-content: center
+                align-items: center
+                top: 100%
+                left: 50%
+                transform: translate(-50%, -50%)
+                +mobile
+                    display: none
+        &_stages
+            padding-top: 119px
+            padding-bottom: 112px
+            padding-left: 57px
+            overflow-x: auto
+            scroll-snap-type: x mandatory
+            -webkit-overflow-scrolling: touch
+            +flex
+            gap: 135px
+            +tablet
+                padding: 20px 0 36px 18px
+                gap: 30px
+            +desktop
+                padding: 90px 0px 95px 40px
+                gap: 70px
+                overflow-x: visible
+                scroll-snap-type: none
+            +mobile
+                padding: 37px
+            &_block
+                +flex
+                flex-direction: column
+                max-width: 270px
+                gap: 18px
+                align-items: center
+                position: relative
+                scroll-snap-align: start
+                +tablet
+                    max-width: 150px
+                +mobile
+                    flex: 0 0 85%
+                    margin-right: 15px
+                    padding-left: 40px
+                &_step
+                    height: 159px
+                    background-color: $violet
+                    font-size: 64px
+                    font-weight: bold
+                    +flex
+                    align-items: center
+                    justify-content: center
+                    border-radius: 100%
+                    border: 15px solid #0e0e0ebe
+                    +tablet
+                        width: 100px
+                        height: 100px
+                    +mobile
+                        width: 150px
+                        height: 150px
+                    +desktop
+                        width:159px
+                    +large
+                        width: 159px
+                &_text
+                    font-size: 24px
+                    font-weight: bold
+                    color: $white
+                    max-width: 187px
+                    +tablet
+                        font-size: 16px
+                &_arrow
+                    width: 47px
+                    height: 67px
+                    position: absolute
+                    bottom: 10px
+                    right: 180px
+                    +tablet
+                        bottom: 0px
+                        right: 135px
+                    +mobile
+                        display: none

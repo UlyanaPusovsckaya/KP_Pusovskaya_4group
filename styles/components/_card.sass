@@ -1,0 +1,49 @@
+.card
+    padding: 23px 36px 40px 25px
+    +flex
+    flex-direction: column
+    gap: 24px
+    background: radial-gradient(#433D60,#211E2E)
+    max-width: 310px
+    align-items: center
+    border-radius: 40px
+    scroll-snap-align: start
+    +mobile
+        flex: 0 0 85%
+        margin-right: 15px
+
+.card-photo
+    border-radius: 100%
+    background-size: cover
+    background-repeat: no-repeat
+    border: 15px solid #0E0E0E
+    width: 189px
+    height: 189px
+    margin: 0
+.photo-simulation
+    background-image: url(/images/simulation.svg)
+.card-title
+    font-weight: bold
+    color: $white
+    font-size: 24px
+.card-divider
+    width: 154px
+    border-color: $violet
+.card-text
+    color: $white
+    font-weight: light
+    font-size: 12px
+    max-width: 250px
+
+.photo-education
+    background: url(/images/education.svg)
+    background-repeat: no-repeat
+    background-size: cover
+.photo-self
+    background: url(/images/self.svg)
+    background-size: cover
+    background-repeat: no-repeat
+.photo-outdoor
+    background: url(/images/outdoor.svg)
+    background-size: cover
+    background-repeat: no-repeat

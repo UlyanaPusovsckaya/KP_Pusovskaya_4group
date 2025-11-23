@@ -1,0 +1,62 @@
+.header
+    position: relative
+    li
+        font-size: 12px
+    &__top
+        height: fit-content
+        +flex
+        align-items: center
+        +tablet
+            justify-content: space-between
+        +mobile
+            justify-content: space-between
+    &__container
+        padding-top: 50px
+        +flex
+        +mobile
+            padding-top: 10px
+        .nav
+            +desktop
+                display: block
+            +large
+                display: block
+            +mobile
+                +drop-menu
+            &.active
+                +active-menu
+            +tablet
+                +drop-menu
+            &.active
+                +active-menu
+            &__menu
+                +flex
+                column-gap: 41px
+                padding-left: 205px
+                padding-right: 140px
+                width: max-content
+                +desktop
+                    padding-left: 80px
+                    padding-right: 40px
+            
+                +mobile
+                    flex-direction: column
+                    gap: 0
+                    padding: 1rem 0
+                +tablet
+                    flex-direction: column
+                    gap: 0
+                    padding: 1rem 0
+
+        +flex
+        column-gap: 38px
+        +desktop
+            column-gap: 15px
+        +tablet
+            justify-content: center
+    
+
+    &__button-group
+        display: flex
+        gap:38px
+        +tablet
+            gap: 10px

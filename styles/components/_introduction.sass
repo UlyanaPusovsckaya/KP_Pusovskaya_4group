@@ -1,0 +1,55 @@
+.introduction-title
+    font-weight: lighter
+    font-size: 36px
+    +flex
+    flex-direction: column
+    width: max-content
+    +mobile
+        align-items: center
+.introduction
+    font-weight: bold
+    font-size: 36px
+    color: $white
+    +flex
+    padding-top: 74px
+    gap: 90px
+    +desktop
+        gap: 20px
+        padding-top: 40px
+    +tablet
+        padding-top: 30px
+        gap: 20px
+    +mobile
+        justify-content: center
+.subtitle
+    +flex
+    font-weight: lighter
+    gap: 16px
+    align-items: center
+    +tablet
+        font-size: 18px
+        gap: 2px
+    +desktop
+        gap: 2px
+        font-size: 30px
+    +mobile
+        font-size: 26px
+.title
+    +tablet
+        font-size: 30px
+    +mobile
+        font-size: 26px
+
+.introduction_text
+    font-size: 16px
+    font-weight: lighter
+    height: max-content
+    max-width: 650px
+    line-height: 1.5
+    +desktop
+        max-width: 500px
+    +tablet
+        font-size: 14px
+        max-width: 467px
+    +mobile
+        display: none

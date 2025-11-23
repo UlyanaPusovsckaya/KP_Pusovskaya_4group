@@ -1,0 +1,82 @@
+form
+    color: $white
+    +flex
+    flex-direction: column
+    background: radial-gradient(#403A5F,#211E2E)
+    gap: 33px
+    align-items: center
+    padding-top: 90px
+    padding-bottom: 84px
+    border-radius: 100px
+    +tablet
+        padding-top: 40px
+    +mobile
+        border-radius: 40px
+        padding-bottom: 65px
+.form-divider
+    width: 414px
+    height: 1px
+    background: linear-gradient($dark-violet,$violet,$darker-violet,$dark-violet)
+    +mobile
+        width: 116px
+.form-title
+    font-weight: bold
+    font-size: 36px
+    +tablet
+        font-size: 24px
+    +mobile
+        font-size: 24px
+.form-subtitle
+    font-weight: lighter
+    font-size: 36px
+    +tablet
+        font-size: 24px
+    +mobile
+        font-size: 24px
+        text-align: center
+        max-width: 232px
+
+
+.input-group1
+    +flex
+    flex-wrap: wrap
+    column-gap: 10px
+    row-gap: 39px
+    justify-content: center
+    +tablet
+        column-gap: 5px
+.input
+    border: 1px solid $white
+    color: $white
+    background: radial-gradient(#403A5F,#211E2E)
+    max-width: 524px
+    border-radius: 100px
+    padding: 27px 326px 27px 27px
+    +mobile
+        padding-right: 100px
+.subject
+    +large
+        padding-right: 860px
+    +desktop
+        padding-right: 650px
+    +tablet
+        padding-right: 450px
+    +mobile
+        padding-right: 100px
+.story
+    +large
+        padding-right: 860px
+        padding-bottom: 166px
+        border-radius: 40px
+    +tablet
+        padding-right: 450px
+        padding-bottom: 150px
+        border-radius: 50px
+    +desktop
+        border-radius:50px
+        padding-right: 650px
+        padding-bottom: 300px
+    +mobile
+        padding-right: 100px
+        border-radius: 40px
+        padding-bottom:180px

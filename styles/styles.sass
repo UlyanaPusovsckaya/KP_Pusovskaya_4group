@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import './components/_media.sass'
+@import '_mixins.sass'
+@import '_variables.sass'
+@import './components/_header.sass'
+@import './components/_footer.sass'
+@import './components/_main.sass'
+@import './components/_burger.sass'
+@import './components/_logo.sass'
+@import './components/_buttons.sass'
+@import './components/_introduction.sass'
+@import './components/_about.sass'
+@import './components/_form.sass'
+@import './components/_card.sass'
+.container
+    margin: 0 auto
+    width: 1272px
+    +tablet
+        width: 740px
+    +desktop
+        width: 1000px
+    +mobile
+        width: 320px
+body
+    margin: 0
+    font-family: 'Montserrat', sans-serif
+    background-color: $background
+a
+    text-decoration: none
+    color: $white
+    text-decoration: none
+    font-weight: 500
+    font-size: 1.2rem
+    display: block
+
+a:hover
+    text-decoration: underline
+
+.divider
+    height: 116px
+    width: 0px
+    border: 1px solid $violet
+    +mobile
+        display: none
+h1
+    font-size: 40px
+    color: $white
+    margin: 0
+    max-width: 456px
+    +tablet
+        font-size: 30px
+        align-self: center
+    +mobile
+        font-size: 24px
+h1>span
+    font-size: 46px
+    background: linear-gradient(to right,$violet,$darker-violet)
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    +tablet
+        font-size: 40px
+    +mobile
+        font-size: 36px
+.simpletext
+    font-size: 16px
+    color: white
+    max-width: 450px
+    +mobile
+        display: none
+.arrow
+    background: url(/images/arrow-small-right.svg)
+    background-repeat: no-repeat
+    background: cover
+    width: 100px
+    height: 100px
+    margin-left: 11px
+    +mobile
+        display: none
+.arrow-big
+    background: url(/images/arrow.svg)
+    width: 200px
+    height: 100px
+    +desktop
+    +tablet
+        width: 110px
+        height: 50px
+        background-size: cover
+        background-repeat: no-repeat
+    +mobile
+        display: none
+.company
+    background-size: cover
+    background-repeat: no-repeat
+.first
+    background-image: url(/images/first.svg)
+    width: 174px
+    height: 174px
+    scroll-snap-align: start
+    +tablet
+        width: 80px
+        height: 80px
+    +mobile
+        width: 320px
+        height: 174px
+        flex: 0 0 85%
+        margin-right: 15px
+.second
+    background-image: url(/images/second.svg)
+    width: 252px
+    height: 252px
+    +tablet
+        width: 170px
+        height: 170px
+    +mobile
+        width: 320px
+        height: 252px
+        flex: 0 0 85%
+        margin-right: 15px
+.third
+    background-image: url(/images/third.svg)
+    width: 263px
+    height: 263px
+    scroll-snap-align: start
+    +flex
+    +tablet
+        width: 130px
+        height: 130px
+    +mobile
+        width: 263px
+        height: 263px
+        flex: 0 0 85%
+        margin-right: 15px
+.fourth
+    background-image: url(/images/fourth.svg)
+    width: 282px
+    height: 282px
+    scroll-snap-align: start
+    +flex
+    +tablet
+        width: 140px
+        height: 140px
+    +mobile
+        width: 282px
+        height: 282px
+        flex: 0 0 85%
+        margin-right: 15px
+.facebook
+    background-image: url(/images/facebook.svg)
+.twitter
+    background-image: url(/images/twitter.svg)
+.linkedin
+    background-image: url(/images/linkedin.svg)
+.youtube
+    background-image: url(/images/youtube.svg)
+.instagram
+    background-image: url(/images/instagram.svg)
+.pinterest
+    background-image: url(/images/pinterest.svg)
+.step-arrow
+    background-image: url(/images/step-arrow.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    width: 40px
+    height: 30px
+.step-group
+    +flex
+    gap: 10px
+body.no-scroll
+    overflow: hidden

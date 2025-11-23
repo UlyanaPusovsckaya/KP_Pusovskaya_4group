@@ -1,0 +1,94 @@
+.footer
+    &__text
+        font-size: 14px
+        font-weight: bold
+        padding: 49px 0px 59px 0px
+        text-align: center
+        letter-spacing: 5px
+        color: #ffffff
+        +tablet
+            padding: 25px 0px 30px 0px
+            font-size: 12px
+        +mobile
+            max-width:273px
+            text-align: center
+            padding-left: 30px
+    &__divider
+        width: 1269px
+        height: 1px
+        background: linear-gradient(#343045,#C0B7E8,#8176AF,#343045)
+        margin: 0 auto
+        +desktop
+            max-width:1000px
+            height: 1px
+        +tablet
+            max-width: 750px
+        +mobile
+            max-width: 289px
+    &__image
+        width: 185px
+        height: 187px
+        background-image: url(/images/logo_image.svg)
+        background-repeat: no-repeat
+        background-size: cover
+        +tablet
+            width: 100px
+            height: 102px
+        +desktop
+            width:150px
+            height: 152px
+        +mobile
+            width: 185px
+            height: 187px
+            background-image: url(/images/logo_image.svg)
+            background-repeat: no-repeat
+            background-size: cover
+    &__columns
+        padding-top: 122px
+        padding-bottom: 77px
+        +flex
+        gap:80px
+        +tablet
+            padding-top: 50px
+            gap:8px
+        +desktop
+            gap:40px
+        +mobile
+            flex-direction: column
+            gap:56px
+            align-items: center
+            padding-top: 81px
+    &__verdivider
+        width: 4px
+        height: 196px
+        background: linear-gradient(#343045,#C0B7E8,#8176AF,#343045)  
+        +mobile
+            display: none
+            
+    &__menu
+        margin: 0
+        padding: 0
+        +flex
+        flex-direction: column
+        gap: 28px 
+        +tablet
+            gap: 16px
+        +mobile
+            display: none
+    &__social
+        +flex
+        flex-direction: column
+        gap: 45px
+        &_text
+            font-weight: bold
+            color: #ffffff
+        &_group
+            +flex
+            gap: 20px
+            &_icon
+                width: 32px
+                height: 32px
+                background-size: cover
+                background-repeat: no-repeat   
+        +mobile
+            align-items: center

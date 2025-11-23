@@ -1,0 +1,54 @@
+.burger
+    position: relative
+    border: none
+    background: transparent
+    width: 40px
+    height: 26px
+    +desktop
+        display: none
+    +large
+        display: none
+    +mobile
+        display: visible
+.burger::before,
+.burger::after
+    content: ''
+    left: 0
+    position: absolute
+    display: block
+    width: 100%
+    height: 4px
+    border-radius: 10px
+    background: #7162B1
+.burger::before
+    top: 0
+    box-shadow: 0 11px 0 #7162B1
+.burger::after
+    bottom: 0
+.burger::before
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s
+
+.burger::after
+    transition: bottom .3s .15s, transform .3s
+
+.burger.active::before
+    top: 11px
+    transform: rotate(45deg)
+    box-shadow: 0 6px 0 rgba(0,0,0,0)
+    transition: box-shadow .15s, top .3s, transform .3s .15s
+
+.burger.active::after
+    bottom: 11px
+    transform: rotate(-45deg)
+    transition: bottom .3s, transform .3s .15s
+.overlay
+    display: none
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.5)
+    z-index: 997
+    &.active
+        display: block
