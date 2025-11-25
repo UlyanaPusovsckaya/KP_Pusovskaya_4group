@@ -178,7 +178,7 @@
 .footer__image {
   width: 185px;
   height: 187px;
-  background-image: url(../images/logo_image.svg);
+  background-image: url(images/logo_image.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -198,7 +198,7 @@
   .footer__image {
     width: 185px;
     height: 187px;
-    background-image: url(../images/logo_image.svg);
+    background-image: url(images/logo_image.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -345,7 +345,7 @@
 }
 .main__content_firstImpr_photo {
   background-size: cover;
-  background-image: url(/images/photo.svg);
+  background-image: url(images/photo.svg);
   background-repeat: no-repeat;
   width: 490px;
   height: 426px;
@@ -406,7 +406,7 @@
   scroll-snap-align: start;
 }
 .main__content_contact_group_map_image {
-  background-image: url(../images/map_image.svg);
+  background-image: url(images/map_image.svg);
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -460,7 +460,7 @@
   }
 }
 .main__content_contact_group_call_image {
-  background-image: url(../images/phone-call.svg);
+  background-image: url(images/phone-call.svg);
   width: 59px;
   height: 59px;
   background-size: cover;
@@ -513,7 +513,7 @@
   }
 }
 .main__content_contact_group_mail_image {
-  background-image: url(../images/mail.svg);
+  background-image: url(images/mail.svg);
   width: 59px;
   height: 59px;
   background-size: cover;
@@ -599,7 +599,7 @@
 .main__content_banner {
   padding-top: 108px;
   padding-bottom: 96px;
-  background-image: url(../images/banner.svg);
+  background-image: url(images/banner.svg);
   border-radius: 160px;
   position: relative;
 }
@@ -876,7 +876,7 @@
 }
 
 .logo_image {
-  background-image: url(../images/logo_image.svg);
+  background-image: url(images/logo_image.svg);
   width: 102px;
   height: 103px;
   margin-right: 15px;
@@ -905,7 +905,7 @@
 }
 
 .logo_name {
-  background-image: url(../images/logo_name.svg);
+  background-image: url(images/logo_name.svg);
   width: 76px;
   height: 46px;
 }
@@ -1210,7 +1210,7 @@
 }
 
 .aboutHydra_photo {
-  background: url(../images/about.svg);
+  background: url(images/about.svg);
   width: 524px;
   height: 557px;
   border-radius: 240px 100px;
@@ -1409,7 +1409,7 @@ form {
 }
 
 .photo-simulation {
-  background-image: url(../images/simulation.svg);
+  background-image: url(images/simulation.svg);
 }
 
 .card-title {
@@ -1431,19 +1431,19 @@ form {
 }
 
 .photo-education {
-  background: url(../images/education.svg);
+  background: url(images/education.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .photo-self {
-  background: url(../images/self.svg);
+  background: url(images/self.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .photo-outdoor {
-  background: url(../images/outdoor.svg);
+  background: url(images/outdoor.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
