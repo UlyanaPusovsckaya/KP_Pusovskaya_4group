@@ -10,6 +10,8 @@
             justify-content: space-between
         +mobile
             justify-content: space-between
+        +desktop
+            gap: 50px
     &__container
         padding-top: 50px
         +flex
@@ -28,25 +30,6 @@
                 +drop-menu
             &.active
                 +active-menu
-            &__menu
-                +flex
-                column-gap: 41px
-                padding-left: 205px
-                padding-right: 140px
-                width: max-content
-                +desktop
-                    padding-left: 80px
-                    padding-right: 40px
-            
-                +mobile
-                    flex-direction: column
-                    gap: 0
-                    padding: 1rem 0
-                +tablet
-                    flex-direction: column
-                    gap: 0
-                    padding: 1rem 0
-
         +flex
         column-gap: 38px
         +desktop
@@ -55,7 +38,7 @@
             justify-content: center
     
 
-    &__button-group
+    &__actions
         display: flex
         gap:38px
         +tablet

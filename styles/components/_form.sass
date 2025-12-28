@@ -1,4 +1,4 @@
-form
+.form
     color: $white
     +flex
     flex-direction: column
@@ -13,38 +13,38 @@ form
     +mobile
         border-radius: 40px
         padding-bottom: 65px
-.form-divider
-    width: 414px
-    height: 1px
-    background: linear-gradient($dark-violet,$violet,$darker-violet,$dark-violet)
-    +mobile
-        width: 116px
-.form-title
-    font-weight: bold
-    font-size: 36px
-    +tablet
-        font-size: 24px
-    +mobile
-        font-size: 24px
-.form-subtitle
-    font-weight: lighter
-    font-size: 36px
-    +tablet
-        font-size: 24px
-    +mobile
-        font-size: 24px
-        text-align: center
-        max-width: 232px
+    &__divider
+        width: 414px
+        height: 1px
+        background: linear-gradient($dark-violet,$violet,$darker-violet,$dark-violet)
+        +mobile
+            width: 116px
+    &__title
+        font-weight: bold
+        font-size: 36px
+        +tablet
+            font-size: 24px
+        +mobile
+            font-size: 24px
+    &__subtitle
+        font-weight: lighter
+        font-size: 36px
+        +tablet
+            font-size: 24px
+        +mobile
+            font-size: 24px
+            text-align: center
+            max-width: 232px
 
 
-.input-group1
-    +flex
-    flex-wrap: wrap
-    column-gap: 10px
-    row-gap: 39px
-    justify-content: center
-    +tablet
-        column-gap: 5px
+    &__input
+        +flex
+        flex-wrap: wrap
+        column-gap: 10px
+        row-gap: 39px
+        justify-content: center
+        +tablet
+            column-gap: 5px
 .input
     border: 1px solid $white
     color: $white

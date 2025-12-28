@@ -1,4 +1,9 @@
 .footer
+    &__icon
+        width: 32px
+        height: 32px
+        background-size: cover
+        background-repeat: no-repeat   
     &__text
         font-size: 14px
         font-weight: bold
@@ -79,16 +84,12 @@
         +flex
         flex-direction: column
         gap: 45px
-        &_text
+        &__text
             font-weight: bold
             color: #ffffff
-        &_group
+        &__group
             +flex
             gap: 20px
-            &_icon
-                width: 32px
-                height: 32px
-                background-size: cover
-                background-repeat: no-repeat   
+            
         +mobile
             align-items: center

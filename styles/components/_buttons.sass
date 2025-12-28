@@ -1,7 +1,9 @@
 .button-link:hover
     text-decoration: none
     color: $purple
-
+.button-link
+    color: $dark-violet
+    font-weight: bold
 .button
     padding: 17px 36px 16px 34px
     border-radius: 40px
@@ -21,11 +23,13 @@
         display: none
 .button_contact:hover
     background-color: $darker-violet
-    color: $dark-violet
 .button_contact
+    color: $white
     +tablet
         display: none
     +mobile
+        display: none
+    +desktop
         display: none
 .button_join:hover
     border: 2px solid $light-violet

@@ -30,9 +30,10 @@ a
     color: $white
     text-decoration: none
     font-weight: 500
-    font-size: 1.2rem
+    font-size: 14px
     display: block
-
+ul
+    list-style-type: none
 a:hover
     text-decoration: underline
 
@@ -167,3 +168,26 @@ h1>span
     gap: 10px
 body.no-scroll
     overflow: hidden
+.menu
+    +flex
+    column-gap: 41px
+    padding-left: 140px
+    padding-right: 140px
+    width: max-content
+    +desktop
+        padding-left: 80px
+        padding-right: 40px
+
+    +mobile
+        flex-direction: column
+        gap: 0
+        padding: 1rem 0
+    +tablet
+        flex-direction: column
+        gap: 0
+        padding: 1rem 0
+.text-bold
+    font-weight: bold
+    font-size: 24px
+    +tablet
+        font-size: 18px
