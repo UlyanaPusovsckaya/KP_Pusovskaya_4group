@@ -1520,7 +1520,7 @@ h1 > span {
 }
 
 .arrow {
-  background: url(./images/arrow-small-right.svg);
+  background: url("/images/arrow-small-right.svg");
   background-repeat: no-repeat;
   background: cover;
   width: 100px;
@@ -1534,7 +1534,7 @@ h1 > span {
 }
 
 .arrow-big {
-  background: url(/images/arrow.svg);
+  background: url("/images/arrow.svg");
   width: 200px;
   height: 100px;
 }
