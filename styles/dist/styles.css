@@ -162,7 +162,7 @@
 .footer__image {
   width: 185px;
   height: 187px;
-  background-image: url("../images/logo_image.svg");
+  background-image: url(/images/logo_image.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -182,7 +182,7 @@
   .footer__image {
     width: 185px;
     height: 187px;
-    background-image: url("../images/logo_image.svg");
+    background-image: url(/images/logo_image.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -323,7 +323,7 @@
 }
 .main__content__firstImpr__photo {
   background-size: cover;
-  background-image: url("../images/photo.svg");
+  background-image: url(/images/photo.svg);
   background-repeat: no-repeat;
   width: 490px;
   height: 426px;
@@ -384,7 +384,7 @@
   scroll-snap-align: start;
 }
 .main__content__contact__map__image {
-  background-image: url("../images/map_image.svg");
+  background-image: url(/images/map_image.svg);
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -438,7 +438,7 @@
   }
 }
 .main__content__contact__call__image {
-  background-image: url("../images/phone-call.svg");
+  background-image: url(/images/phone-call.svg);
   width: 59px;
   height: 59px;
   background-size: cover;
@@ -491,7 +491,7 @@
   }
 }
 .main__content__contact__mail__image {
-  background-image: url("../images/mail.svg");
+  background-image: url(/images/mail.svg);
   width: 59px;
   height: 59px;
   background-size: cover;
@@ -568,7 +568,7 @@
 .main__content__banner {
   padding-top: 108px;
   padding-bottom: 96px;
-  background-image: url("../images/banner.svg");
+  background-image: url(/images/banner.svg);
   border-radius: 160px;
   position: relative;
 }
@@ -845,7 +845,7 @@
   }
 }
 .logo__image {
-  background-image: url("../images/logo_image.svg");
+  background-image: url(/images/logo_image.svg);
   width: 102px;
   height: 103px;
   margin-right: 15px;
@@ -873,7 +873,7 @@
   }
 }
 .logo__name {
-  background-image: url("../images/logo_name.svg");
+  background-image: url(/images/logo_name.svg);
   width: 76px;
   height: 46px;
 }
@@ -1189,7 +1189,7 @@
   }
 }
 .about__photo {
-  background: url("../images/about.svg");
+  background: url(/images/about.svg);
   width: 524px;
   height: 557px;
   border-radius: 240px 100px;
@@ -1398,25 +1398,25 @@
 }
 
 .photo-education {
-  background: url("../images/education.svg");
+  background: url(/images/education.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .photo-self {
-  background: url("../images/self.svg");
+  background: url(/images/self.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .photo-outdoor {
-  background: url("../images/outdoor.svg");
+  background: url(/images/outdoor.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .photo-simulation {
-  background-image: url("../images/simulation.svg");
+  background-image: url(/images/simulation.svg);
 }
 
 .container {
@@ -1520,7 +1520,7 @@ h1 > span {
 }
 
 .arrow {
-  background: url("./images/arrow-small-right.svg");
+  background: url(./images/arrow-small-right.svg);
   background-repeat: no-repeat;
   background: cover;
   width: 100px;
@@ -1534,7 +1534,7 @@ h1 > span {
 }
 
 .arrow-big {
-  background: url("./images/arrow.svg");
+  background: url(/images/arrow.svg);
   width: 200px;
   height: 100px;
 }
@@ -1558,7 +1558,7 @@ h1 > span {
 }
 
 .first {
-  background-image: url("./images/first.svg");
+  background-image: url(/images/first.svg);
   width: 174px;
   height: 174px;
   scroll-snap-align: start;
@@ -1579,7 +1579,7 @@ h1 > span {
 }
 
 .second {
-  background-image: url("./images/second.svg");
+  background-image: url(/images/second.svg);
   width: 252px;
   height: 252px;
 }
@@ -1599,7 +1599,7 @@ h1 > span {
 }
 
 .third {
-  background-image: url("./images/third.svg");
+  background-image: url(/images/third.svg);
   width: 263px;
   height: 263px;
   scroll-snap-align: start;
@@ -1621,7 +1621,7 @@ h1 > span {
 }
 
 .fourth {
-  background-image: url("./images/fourth.svg");
+  background-image: url(/images/fourth.svg);
   width: 282px;
   height: 282px;
   scroll-snap-align: start;
@@ -1643,31 +1643,31 @@ h1 > span {
 }
 
 .facebook {
-  background-image: url("./images/facebook.svg");
+  background-image: url(/images/facebook.svg);
 }
 
 .twitter {
-  background-image: url("./images/twitter.svg");
+  background-image: url(/images/twitter.svg);
 }
 
 .linkedin {
-  background-image: url("./images/linkedin.svg");
+  background-image: url(/images/linkedin.svg);
 }
 
 .youtube {
-  background-image: url("./images/youtube.svg");
+  background-image: url(/images/youtube.svg);
 }
 
 .instagram {
-  background-image: url("./images/instagram.svg");
+  background-image: url(/images/instagram.svg);
 }
 
 .pinterest {
-  background-image: url("./images/pinterest.svg");
+  background-image: url(/images/pinterest.svg);
 }
 
 .step-arrow {
-  background-image: url("./images/step-arrow.svg");
+  background-image: url(/images/step-arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 40px;
