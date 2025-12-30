@@ -30,7 +30,7 @@ a
     color: $white
     text-decoration: none
     font-weight: 500
-    font-size: 14px
+    font-size: 12px
     display: block
 ul
     list-style-type: none
@@ -48,6 +48,7 @@ h1
     color: $white
     margin: 0
     max-width: 456px
+    padding-top: 34px
     +tablet
         font-size: 30px
         align-self: center
@@ -66,6 +67,7 @@ h1>span
     font-size: 16px
     color: white
     max-width: 450px
+    line-height: 1.4
     +mobile
         display: none
 .arrow
@@ -75,16 +77,19 @@ h1>span
     width: 100px
     height: 100px
     margin-left: 11px
+    margin-top: -8px
     +mobile
         display: none
 .arrow-big
     background: url('../images/arrow.svg')
     width: 200px
     height: 100px
+    margin-left: 22px
     +desktop
     +tablet
         width: 110px
         height: 50px
+        margin-left:0px
         background-size: cover
         background-repeat: no-repeat
     +mobile
@@ -92,11 +97,15 @@ h1>span
 .company
     background-size: cover
     background-repeat: no-repeat
+    margin-top: -10px
 .first
     background-image: url(../images/first.svg)
     width: 174px
     height: 174px
     scroll-snap-align: start
+    margin-left: 69px
+    +desktop
+        margin-left:0px
     +tablet
         width: 80px
         height: 80px
@@ -109,6 +118,7 @@ h1>span
     background-image: url(../images/second.svg)
     width: 252px
     height: 252px
+    margin-left: 19px
     +tablet
         width: 170px
         height: 170px
@@ -170,9 +180,9 @@ body.no-scroll
     overflow: hidden
 .menu
     +flex
-    column-gap: 41px
-    padding-left: 140px
-    padding-right: 140px
+    column-gap: 43px
+    padding-left: 207px
+    padding-right: 88px
     width: max-content
     +desktop
         padding-left: 80px
@@ -191,3 +201,68 @@ body.no-scroll
     font-size: 24px
     +tablet
         font-size: 18px
+.how_introduction
+    padding-top: 0px
+    gap: 67px
+    margin-top: 0px
+    +desktop
+        gap:7px
+    +tablet
+        gap:0px
+.arr-big
+    margin: 0px
+    margin-left: 8px
+.why_subtitle
+    gap: 11px
+    padding-left: 8px
+    +tablet
+        margin-top:1px
+.arr
+    margin: 0
+.sub
+    letter-spacing: 1px
+    +tablet
+        margin-top: 5px
+.why_text
+    padding-left: 0px
+.why_title
+    padding-left: 7px
+    padding-top: 0px
+.sim_text
+    line-height: 1.41
+.self_text
+    line-height: 1.65
+.out_text
+    line-height: 1.4
+img
+    margin-left: 51px
+    +tablet
+        margin-left:20px
+.img
+    margin-left: 34px
+    +tablet
+        margin-left:11px
+.banner_arrow
+    margin-left: 0px
+.link
+    font-size: 16px
+.ver
+    margin-left: 17px
+.sec_menu
+    padding-left: 26px
+    margin-right: -25px
+    +tablet
+        margin-right:0px
+.footer__button
+    padding-right: 41px
+    margin-top: 10px
+    padding-left: 37px
+    padding-top:18px
+.how_title
+    padding-left:3px
+    +tablet
+        padding-left:0px
+.out_title
+    margin-left:-8px
+.edu_title
+    margin-left:2px

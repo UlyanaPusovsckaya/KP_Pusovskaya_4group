@@ -5,7 +5,7 @@
     background: radial-gradient(#403A5F,#211E2E)
     gap: 33px
     align-items: center
-    padding-top: 90px
+    padding-top: 107px
     padding-bottom: 84px
     border-radius: 100px
     +tablet
@@ -22,6 +22,8 @@
     &__title
         font-weight: bold
         font-size: 36px
+        margin-top:-19px
+        padding-right:5px
         +tablet
             font-size: 24px
         +mobile
@@ -29,6 +31,8 @@
     &__subtitle
         font-weight: lighter
         font-size: 36px
+        margin-top:-17px
+        letter-spacing: 0.4px
         +tablet
             font-size: 24px
         +mobile
@@ -43,20 +47,27 @@
         column-gap: 10px
         row-gap: 39px
         justify-content: center
+        margin-top:32px
         +tablet
             column-gap: 5px
+    &__button
+        margin-top: 18px
+        padding: 20px 52px 23px 52px
 .input
     border: 1px solid $white
     color: $white
     background: radial-gradient(#403A5F,#211E2E)
     max-width: 524px
     border-radius: 100px
-    padding: 27px 326px 27px 27px
+    padding:25px 310px 26px 43px
+    font-family: 'Montserrat'
+    font-size: 14px
     +mobile
         padding-right: 100px
 .subject
     +large
-        padding-right: 860px
+        padding-right: 846px
+        padding-top:27px
     +desktop
         padding-right: 650px
     +tablet
@@ -65,9 +76,10 @@
         padding-right: 100px
 .story
     +large
-        padding-right: 860px
+        padding-right: 848px
         padding-bottom: 166px
         border-radius: 40px
+        padding-top:26px
     +tablet
         padding-right: 450px
         padding-bottom: 150px

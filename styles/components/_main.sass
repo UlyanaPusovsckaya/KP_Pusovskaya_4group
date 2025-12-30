@@ -57,12 +57,13 @@
             gap: 40px
             border-radius: 90px
             background: radial-gradient(circle,#3A3456,#211E2E)
-            padding: 26px 39px 25px 80px
+            padding: 32px 39px 18px 40px
+            margin-top: 14px
             overflow-x: auto
             scroll-snap-type: x mandatory
             -webkit-overflow-scrolling: touch
             +desktop
-                gap: 30px
+                gap: 10px
                 padding: 18px 10px 18px 25px
                 overflow-x: visible
                 scroll-snap-type: none
@@ -91,6 +92,9 @@
                 &__text
                     font-size: 14px
                     color: white
+                    margin-left: -10px
+                    margin-top: -6px
+                    line-height: 1.8
                     +tablet
                         font-size: 12px
                     &--bold
@@ -104,9 +108,12 @@
             &__call
                 +flex
                 align-items: center
-                gap: 10px
+                gap: 29px
+                margin-right: 27px
                 scroll-snap-align: start
                 justify-content: center
+                +tablet
+                    gap:15px
                 +mobile
                     gap: 30px
                 &__image
@@ -115,6 +122,8 @@
                     height: 59px
                     background-size: cover
                     background-repeat: no-repeat
+                    margin-left: 8px
+                    margin-top: 3px
                     +tablet
                         width: 50px
                         height: 40px
@@ -124,6 +133,8 @@
                 &__text
                     font-size: 14px
                     color: white
+                    margin-top: -3px
+                    line-height: 1.7
                     +tablet
                         font-size: 12px
                     &--bold
@@ -137,14 +148,15 @@
             &__mail
                 +flex
                 align-items: center
-                gap: 10px
+                gap: 23px
                 scroll-snap-align: start
+                margin-left: 10px
                 +mobile
                     gap: 30px
                 &__image
                     background-image: url(../images/mail.svg)
-                    width: 59px
-                    height: 59px
+                    width: 63px
+                    height: 63px
                     background-size: cover
                     background-repeat: no-repeat
                     +tablet
@@ -154,12 +166,14 @@
                 &__text
                     font-size: 14px
                     color: white
+                    margin-top: -4px
+                    line-height: 1.7
                     +tablet
                         font-size: 12px
                     +mobile
                         width: 195px
         &__cards
-            padding-top: 60px
+            padding-top: 75px
             overflow-x: auto
             scroll-snap-type: x mandatory
             -webkit-overflow-scrolling: touch
@@ -177,11 +191,13 @@
                 padding-bottom: 40px
                 flex-wrap: wrap
                 justify-content: center
+            +mobile
+                padding-top:30px
         &__companies
             +flex
             justify-content: space-between
             align-items: center
-            padding: 45px 0 69px 0
+            padding: 42px 0 69px 0
             overflow-x: auto
             scroll-snap-type: x mandatory
             -webkit-overflow-scrolling: touch
@@ -193,15 +209,18 @@
                 padding: 20px 0 30px 0
                 gap: 20px
         &__banner
-            padding-top: 108px
-            padding-bottom: 96px
+            padding-top: 95px
+            padding-bottom: 107px
+            margin-top: 36px
             background-image: url(../images/banner.svg)
             border-radius: 160px
             position: relative
+            margin-left: 9px
+            padding-right: 17px
             +mobile
                 background-size: cover
                 border-radius: 40px
-                padding: 51px 30px 49px 30px
+                padding: 51px 17px 49px 30px
             &__title
                 font-size: 36px
                 font-weight: bold
@@ -216,6 +235,8 @@
                 font-weight: lighter
                 color: #ffffff
                 text-align: center
+                margin-top: 13px
+                margin-left: -20px
                 +tablet
                     font-size: 24px
                 +mobile
@@ -224,20 +245,21 @@
                 border: 18px solid #0e0e0ebe
                 border-radius: 100%
                 background-color: $violet
-                width: 60px
-                height: 60px
+                width: 71px
+                height: 71px
                 position: absolute
                 z-index: 5
+                margin-top: -8px
                 +flex
                 justify-content: center
                 align-items: center
-                top: 100%
-                left: 50%
+                top: 99%
+                left: 49.7%
                 transform: translate(-50%, -50%)
                 +mobile
                     display: none
 .stages
-    padding-top: 119px
+    padding-top: 97px
     padding-bottom: 112px
     padding-left: 57px
     overflow-x: auto
@@ -259,7 +281,7 @@
         +flex
         flex-direction: column
         max-width: 270px
-        gap: 18px
+        gap: 29px
         align-items: center
         position: relative
         scroll-snap-align: start
@@ -276,7 +298,6 @@
             font-weight: bold
             +flex
             align-items: center
-            justify-content: center
             border-radius: 100%
             border: 15px solid #0e0e0ebe
             +tablet
@@ -294,14 +315,16 @@
             font-weight: bold
             color: $white
             max-width: 187px
+            line-height: 1.4
+            margin-left: 2px
             +tablet
                 font-size: 16px
         &__arrow
             width: 47px
             height: 67px
             position: absolute
-            bottom: 10px
-            right: 180px
+            bottom: 18px
+            right: 173px
             +tablet
                 bottom: 0px
                 right: 135px
