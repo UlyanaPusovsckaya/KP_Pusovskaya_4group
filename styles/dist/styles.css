@@ -839,19 +839,6 @@
   transition: bottom 0.3s 0.15s, transform 0.3s;
 }
 
-.burger.active::before {
-  top: 11px;
-  transform: rotate(45deg);
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
-  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
-}
-
-.burger.active::after {
-  bottom: 11px;
-  transform: rotate(-45deg);
-  transition: bottom 0.3s, transform 0.3s 0.15s;
-}
-
 .overlay {
   display: none;
   position: fixed;
